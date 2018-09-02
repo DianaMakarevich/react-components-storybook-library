@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import  './styles.css';
-
-class Schedule extends Component {
-  render() {  
-    return (
-        <div className="schedule">Main wrapper</div>
-    );
+ 
+class Schedule extends React.Component {
+  render() {
+    return <div>Hello World!</div>;
   }
 }
+ 
 
 export default Schedule;

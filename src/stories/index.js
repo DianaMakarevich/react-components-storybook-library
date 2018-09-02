@@ -5,11 +5,12 @@ import { storiesOf } from '@storybook/react';
 // import { action } from '@storybook/addon-actions';
 // import { linkTo } from '@storybook/addon-links';
 // import { Button, Welcome } from '@storybook/react/demo';
+import ReactWebComponent from 'react-web-component';
 import Schedule  from '../components/Schedule';
 
 // storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
-
-storiesOf('Schedule', module).add('default', () => <Schedule></Schedule>);
+ReactWebComponent.create(<Schedule />, 'app-schedule');
+storiesOf('Schedule', module).add('default', () => <app-schedule></app-schedule>);
 
 // storiesOf('Button', module)
 //   .addDecorator(withKnobs)

@@ -5,9 +5,11 @@
   "dependencies": {
     "@storybook/addon-info": "^3.4.10",
     "@storybook/addon-knobs": "^3.4.10",
+    "@storybook/polymer": "^3.4.10",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "react-web-component": "^1.0.14"
   },
   "scripts": {
     "start": "react-scripts start",
