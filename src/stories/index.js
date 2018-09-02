@@ -10,7 +10,8 @@ import Schedule  from '../components/Schedule';
 
 // storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 ReactWebComponent.create(<Schedule />, 'app-schedule');
-storiesOf('Schedule', module).add('default', () => <app-schedule></app-schedule>);
+storiesOf('Schedule', module).add('default', () => <Schedule></Schedule>);
+storiesOf('App schedulw', module).add('default', () => <app-schedule></app-schedule>);
 
 // storiesOf('Button', module)
 //   .addDecorator(withKnobs)
